@@ -70,7 +70,7 @@ Example: Operators in Python can do more that just maths. For instance
 
 We can take Strings and add them together or concatenate them.
 
-What would happen inf we evaluate **3 + &quot;a&quot; ?** This is a **static sematic error**. They **syntax is ok** (operand, operator, operand), **but it doesn&#39;t make sense**. **Oh no!** What can we do? we can explicitly ask Python to convert it into a string with type conversion:
+What would happen if we evaluate **3 + &quot;a&quot; ?** This is a **static sematic error**. They **syntax is ok** (operand, operator, operand), **but it doesn&#39;t make sense**. **Oh no!** What can we do? we can explicitly ask Python to convert it into a string with type conversion:
 
     str(3) + str(a)
 
