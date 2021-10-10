@@ -41,7 +41,7 @@ and
 
 
 
-We need to keep in mind that, for an expression to be accepted by Python, it has to be **syntactically** correct **(operand, operator, operand**), but we also we need to give it the kind of operand it expects ( **semantics** ).
+We need to keep in mind that, for an expression to be accepted by Python, it has to be **syntactically** correct **(operand, operator, operand**), but we also need to give it the kind of operand it expects ( **semantics** ).
 
 We can do things like add 2 numbers, concatenate two strings, but not add one number and one string. Consider:
 
