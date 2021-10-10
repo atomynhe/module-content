@@ -70,9 +70,9 @@ Example: Operators in Python can do more that just maths. For instance
 
 We can take Strings and add them together or concatenate them.
 
-What would happen if we evaluate **3 + &quot;a&quot; ?** This is a **static sematic error**. They **syntax is ok** (operand, operator, operand), **but it doesn&#39;t make sense**. **Oh no!** What can we do? we can explicitly ask Python to convert it into a string with type conversion:
+What would happen if we evaluate **3 + &quot;a&quot; ?** This is a **static semantic error**. They **syntax is ok** (operand, operator, operand), **but it doesn&#39;t make sense**. What can we do? we can explicitly ask Python to convert it into a string with type conversion:
 
-    str(3) + str(a)
+    str(3) + str("a")
 
 It is good that python tells us that this is type checking error, but we must be careful here. If we make a mistake, python will carry the wrong results forward into all the other operations that we are doing, and it can be very hard to trace it down. It&#39;s good to make sure that we are checking out results. **Good style** will help us find these mistakes.
 
